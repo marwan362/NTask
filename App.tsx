@@ -1,7 +1,6 @@
-import React, {useCallback, useState} from 'react';
+import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import ChatBubble, {MessageType} from './src/Screens/Chat';
-import BubbleChatIcon from './src/Screens/Chat/Components/BubbleChatIcon';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 const App: React.FC = () => {
